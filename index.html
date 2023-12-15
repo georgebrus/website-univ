@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <style>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+.subnav {
+  overflow: hidden;
+  float: left;
+}
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding: 14px 16px;
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+.subnav-content {
+  display: none;
+  left: 0;
+  position: absolute;
+  background-color: #333;
+  z-index: 1;
+  width: 100%;
+}
+.subnav-content a {
+  float: left;
+  text-decoration: none;
+  color:blue;
+}
+.subnav-content a:hover {
+  color: white;
+  background-color: red;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
+    </style>
+  </head>
+  <body style="background-image:url(https://sevima.com/wp-content/uploads/2021/06/President-University.jpg) ;">
+    <h1>selamat datang di website resmi kampus cokelat</h1>
+    <div class="navbar">
+      <a href="menu utama">menu</a>
+      <div class="subnav">
+        <button class="subnavbtn">beranda<i class="fa fa-faret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#profil">profil</a>
+          <a href="#sejarah">sejarah</a>
+          <a href="#prestasi">prestasi</a>
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn">fakultas<i class="fa fa-faret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#teknik">teknik</a>
+          <a href="#pertanian">pertanian</a>
+          <a href="#seni">seni</a>
+          <a href="#olahraga">olahraga</a>
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn">galeri<i class="fa fa-faret-down"></i></button>
+        <div class="subnav-content">
+          <a href="#galeri FT">galeri FT</a>
+          <a href="#galeri pertanian">galeri pertanian</a>
+          <a href="#art gallery">art gallery</a>
+          <a href="#lensa olahraga">lensa olahraga</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
